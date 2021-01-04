@@ -23,5 +23,6 @@ let unleashDog = function(dogName, dogBreed) {
 }
 
 let exerciseDog = function(dogName, dogBreed) {
-  
+  wakeDog()
+  leashDog()
 }
