@@ -28,6 +28,8 @@ var unleashDog = function(dogName, dogBreed) {
   return `Unleash ${dogName} the ${dogBreed}`
 }
 
+const routine = [wakeDog,leashDog,walkToPark,throwFrisbee,walkHome,unleashDog];
+
 var exerciseDog = function(dogName, dogBreed) {
   
 }
